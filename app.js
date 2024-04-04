@@ -92,7 +92,7 @@
 // );
 
 api key= [api_key]
-const urlsi = `https://api.themoviedb.org/3/movie/popular?{$api key}`;
+const urlsi = `https://api.themoviedb.org/3/movie/popular?${api key}`;
 
 fetch(urlsi)
   .then(response => response.json())
