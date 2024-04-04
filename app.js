@@ -91,7 +91,7 @@
 // .then((data) => data.map((options)=> console.log(`${options.headers} || `)))
 // );
 
-api key= [api_key]
+api key= [4cc43c9591f08a993e37d3de55e50a72]
 const urlsi = `https://api.themoviedb.org/3/movie/popular?${api key}`;
 
 fetch(urlsi)
